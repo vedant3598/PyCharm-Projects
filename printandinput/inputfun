@@ -1,0 +1,10 @@
+""" s = input()
+print(s)
+s = input("Enter your name: ")
+print(s)
+s = input("Enter a number: ")
+print(s)
+print(type(s)) """
+
+lst = [float(x) for x in input("Enter three numbers separated by a comma: ").split(',')]
+print(lst)

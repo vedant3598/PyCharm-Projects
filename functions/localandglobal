@@ -1,0 +1,15 @@
+x = 123
+# Local variable takes precedence over global variable
+def display():
+    x = 132
+    print(x)
+    print(globals()['x'])
+
+
+print(x)
+# Assign function to variable
+z = display
+z()
+z()
+z()
+

@@ -1,0 +1,16 @@
+def average(a, b):
+    return (a+b) / 2
+
+
+result = average(a=3, b=6)
+print(result)
+
+
+# Default values do not override value that is inputted
+def average1(a=3, b=6):
+    return (a+b) / 2
+
+
+result2 = average1(a=5)
+print(result2)
+
